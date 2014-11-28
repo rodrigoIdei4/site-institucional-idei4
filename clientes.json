@@ -1,0 +1,16 @@
+{
+	"clientes" :[	
+		{
+			"nome"		:	"Z-Shirts",
+			"logo"		:	"img/logos/zshirts.png",
+			"servicos"	:	"Criação de LD",
+			"descricao"	:	"Criação da página de vendas de camisas online"
+		},
+		{
+			"nome"		:	"Tre Amici",
+			"logo"		:	"img/logos/treamici.png",
+			"servicos"	:	"Criação de E-commerce",
+			"descricao"	:	"Criação do E-commerce: Criação da hospedagem da loja, implementação da plataforma Magento, instalação dos módulos de gateway de pagamentom e Correios e implementação dos mesmos"
+		}
+	]
+}
