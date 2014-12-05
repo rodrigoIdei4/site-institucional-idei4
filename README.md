@@ -20,7 +20,8 @@ Informações do site no período de 1 ano (1/12/2013 à 1/12/2014)
 - Mobile -> 6.81%
 - Tablet -> 2.40%
 
-
+=> Layout
+O layout tem referências do template "escape" (http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/), seguindo a mesma estrutura de página, mas não de itens do menu.
 
 Novo site da Idei4
 
