@@ -31,9 +31,8 @@ Novo site da Idei4
 - Quem somos
 - Clientes
 - Serviços
-- Depoimentos
 - Portfolio
-- Mídias Socias
+- Contato
 
 
 => Gerar conteúdo dinâmico na parte de clientes
