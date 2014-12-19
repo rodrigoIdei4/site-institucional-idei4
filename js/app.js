@@ -6,3 +6,10 @@ app.config(['$routeProvider',function($routeProvider){
 	when('/orcamento', {controller: 'orcamentoController', tempplateUrl: 'orcamento.html'}).
 	otherwise({redirectTo: '/'});
 }]);
+
+app.controller('contatoController',function ($scope) {
+	console.log('contatoController');
+});
+app.controller('orcamentoController',function ($scope) {
+	console.log('orcamentoController');
+});
