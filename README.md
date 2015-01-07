@@ -50,3 +50,13 @@ Arquivo: js/clientes.json
 
 Utilizei o AngularJS nessa área para que ao abrir o site ele abra com o fomrulário de contato e ao solicitar orçamento ele mude o formulário para o de orçamento, com isso não será necessário criar uma página só para orçamento ou então uma lightbox.
 A validação também será feita pelo AngularJS.
+
+=> CSS e Grid
+
+Nesse projeto trabalharei com framework css, sass. Para instalar bastar digitar no terminal: gem install sass
+
+Utilizarei também um grid para o desenvolvimento, o grid utilizado é o Zen Grid. Para rodar o Zen Grid é preciso ter instalado o sass e o Compass. Para instalar o sass foi ensinado acima e para instalar o Compass é parecido: gem install compass
+
+Depois do sass e do Compass instalado, tem que instalar o Zen Grid. Para instalar o Zen Grid basta digitar: gem install zen-grids
+
+Mais informações sobre o Zen Grids, acesse o site: zengrids.com
