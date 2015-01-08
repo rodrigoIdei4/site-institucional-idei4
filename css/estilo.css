@@ -61,5 +61,31 @@ header {
     display: table; }
   #content:after {
     clear: both; }
+  #content #home {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 580px; }
+  #content #desenvolvimento-de-sites {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both; }
+  #content .clientes {
+    clear: both; }
 
 /*# sourceMappingURL=estilo.css.map */

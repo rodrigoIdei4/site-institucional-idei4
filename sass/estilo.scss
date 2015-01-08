@@ -43,4 +43,18 @@ header{
 	width: 1400px;
 	margin: 0 auto;
 	clear: both;
+
+	#home{
+		@include zen-grid-item(12, 1);
+		height: 580px;
+	}
+
+	#desenvolvimento-de-sites{
+		@include zen-grid-item(12, 1);
+		clear: both;
+	}
+
+	.clientes{
+		clear: both;
+	}
 }
