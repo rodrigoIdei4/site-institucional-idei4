@@ -40,18 +40,51 @@ header{
 }
 #content{
 	@include zen-grid-container;
-	width: 1400px;
 	margin: 0 auto;
 	clear: both;
 
 	#home{
 		@include zen-grid-item(12, 1);
-		height: 580px;
+		height: 485px;
+		background: url(images/globo.jpg) no-repeat 0 0;
+
+		p{
+			color: #fff;
+			font-size: 32px;
+			text-align: center;
+			margin-top: 115px;
+			font-family: 'Lobster', cursive;
+
+			&.todas-maiusculas{
+				margin-top: 20px;
+				font-family: 'Play', sans-serif;
+				font-size: 72px;
+			}
+
+			&.button{
+				margin: 40px auto;
+				width: 240px;
+				
+
+				a{
+					font-family: 'Play', sans-serif;
+					font-weight: bold;
+					color: #fff;
+					text-decoration: none;
+					display: block;
+					width: 240px;
+					height: 50px;
+					border: 2px solid #fff;
+					line-height: 50px;
+				}
+			}
+		}
 	}
 
 	#desenvolvimento-de-sites{
-		@include zen-grid-item(12, 1);
+		@include zen-grid-item(10, 2);
 		clear: both;
+		margin-top: 100px;
 	}
 
 	.clientes{

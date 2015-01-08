@@ -53,7 +53,6 @@ header {
           text-transform: capitalize; }
 
 #content {
-  width: 1400px;
   margin: 0 auto;
   clear: both; }
   #content:before, #content:after {
@@ -72,11 +71,35 @@ header {
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    height: 580px; }
+    height: 485px;
+    background: url(images/globo.jpg) no-repeat 0 0; }
+    #content #home p {
+      color: #fff;
+      font-size: 32px;
+      text-align: center;
+      margin-top: 115px;
+      font-family: 'Lobster', cursive; }
+      #content #home p.todas-maiusculas {
+        margin-top: 20px;
+        font-family: 'Play', sans-serif;
+        font-size: 72px; }
+      #content #home p.button {
+        margin: 40px auto;
+        width: 240px; }
+        #content #home p.button a {
+          font-family: 'Play', sans-serif;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+          display: block;
+          width: 240px;
+          height: 50px;
+          border: 2px solid #fff;
+          line-height: 50px; }
   #content #desenvolvimento-de-sites {
     float: left;
-    width: 100%;
-    margin-left: 0%;
+    width: 83.33333%;
+    margin-left: 8.33333%;
     margin-right: -100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -84,7 +107,8 @@ header {
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    clear: both; }
+    clear: both;
+    margin-top: 100px; }
   #content .clientes {
     clear: both; }
 
