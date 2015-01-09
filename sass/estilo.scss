@@ -88,81 +88,96 @@ header{
 			}
 		}
 	}
+	#services{
 
-	#desenvolvimento-de-sites{
-		@include zen-grid-item(12, 1);
-		clear: both;
-		margin-top: 100px;
-		margin-bottom: 50px;
-		font-family: 'Play', sans-serif;
+		#desenvolvimento-de-sites{
+			@include zen-grid-item(12, 1);
+			clear: both;
+			margin-top: 100px;
+			margin-bottom: 50px;
+			font-family: 'Play', sans-serif;
 
-		.texto{
-			@include zen-grid-item(4, 3);
+			.texto{
+				@include zen-grid-item(4, 3);
 
-			h1{
-				font-size: 31px;
-				margin-bottom: 20px;
+				h1{
+					font-size: 31px;
+					margin-bottom: 20px;
+				}
+				p{
+					font-size: 12px;
+				}
 			}
-			p{
-				font-size: 12px;
+
+			.imagem{
+				@include zen-grid-item(3, 8);
+			}
+
+			.button{
+				@include botao(310px, 45px, #9ccc45, center, 45px);
+				
+				a{
+					color: #fff;
+					font-weight: bold;
+					font-size: 20px;
+					text-decoration: none;
+					display: block;
+				}
 			}
 		}
 
-		.imagem{
-			@include zen-grid-item(3, 8);
+		#identidade-visual{
+			@include zen-grid-item(12,1);
+			clear: both;
+			padding-top: 100px;
+			padding-bottom: 50px;
+			font-family: 'Play', sans-serif;
+			background: #fafafa;
+
+			.texto{
+				@include zen-grid-item(4, 8);
+
+				h1{
+					font-size: 31px;
+					margin-bottom: 20px;
+				}
+				p{
+					font-size: 12px;
+				}
+			}
+
+			.imagem{
+				@include zen-grid-item(3, 4);
+			}
+
+			.button{
+				@include botao(310px, 45px, #9ccc45, center, 45px);
+
+				a{
+					color: #fff;
+					font-weight: bold;
+					font-size: 20px;
+					text-decoration: none;
+					display: block;
+				}
+			}
 		}
 
-		.button{
-			@include botao(310px, 45px, #9ccc45, center, 45px);
-			
-			a{
-				color: #fff;
-				font-weight: bold;
-				font-size: 20px;
-				text-decoration: none;
-				display: block;
+		.outros-servicos{
+			@include zen-grid-item(8, 3);
+			clear: both;
+
+			.cartao, .hospedagem{
+				@include zen-grid-item(3, 1);
+			}
+			.material, .consultoria{
+				@include zen-grid-item(3, 3, right);
+			}
+			.hospedagem{
+				clear: both;
 			}
 		}
 	}
-
-	#identidade-visual{
-		@include zen-grid-item(12,1);
-		clear: both;
-		padding-top: 100px;
-		padding-bottom: 50px;
-		font-family: 'Play', sans-serif;
-		background: #fafafa;
-
-		.texto{
-			@include zen-grid-item(4, 8);
-
-			h1{
-				font-size: 31px;
-				margin-bottom: 20px;
-			}
-			p{
-				font-size: 12px;
-			}
-		}
-
-		.imagem{
-			@include zen-grid-item(3, 4);
-		}
-
-		.button{
-			@include botao(310px, 45px, #9ccc45, center, 45px);
-
-			a{
-				color: #fff;
-				font-weight: bold;
-				font-size: 20px;
-				text-decoration: none;
-				display: block;
-			}
-		}
-	}
-
-
 
 	.clientes{
 		clear: both;
