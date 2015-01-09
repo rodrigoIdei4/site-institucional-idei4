@@ -98,8 +98,8 @@ header {
           line-height: 50px; }
   #content #desenvolvimento-de-sites {
     float: left;
-    width: 83.33333%;
-    margin-left: 8.33333%;
+    width: 100%;
+    margin-left: 0%;
     margin-right: -100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -108,7 +108,103 @@ header {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     clear: both;
-    margin-top: 100px; }
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Play', sans-serif; }
+    #content #desenvolvimento-de-sites .texto {
+      float: left;
+      width: 33.33333%;
+      margin-left: 16.66667%;
+      margin-right: -100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box; }
+      #content #desenvolvimento-de-sites .texto h1 {
+        font-size: 31px;
+        margin-bottom: 20px; }
+      #content #desenvolvimento-de-sites .texto p {
+        font-size: 12px; }
+    #content #desenvolvimento-de-sites .imagem {
+      float: left;
+      width: 25%;
+      margin-left: 58.33333%;
+      margin-right: -100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box; }
+    #content #desenvolvimento-de-sites .button {
+      width: 310px;
+      height: 45px;
+      background: #9ccc45;
+      text-align: center;
+      line-height: 45px; }
+      #content #desenvolvimento-de-sites .button a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        display: block; }
+  #content #identidade-visual {
+    float: left;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: -100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: 'Play', sans-serif;
+    background: #fafafa; }
+    #content #identidade-visual .texto {
+      float: left;
+      width: 33.33333%;
+      margin-left: 58.33333%;
+      margin-right: -100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box; }
+      #content #identidade-visual .texto h1 {
+        font-size: 31px;
+        margin-bottom: 20px; }
+      #content #identidade-visual .texto p {
+        font-size: 12px; }
+    #content #identidade-visual .imagem {
+      float: left;
+      width: 25%;
+      margin-left: 25%;
+      margin-right: -100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box; }
+    #content #identidade-visual .button {
+      width: 310px;
+      height: 45px;
+      background: #9ccc45;
+      text-align: center;
+      line-height: 45px; }
+      #content #identidade-visual .button a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        display: block; }
   #content .clientes {
     clear: both; }
 

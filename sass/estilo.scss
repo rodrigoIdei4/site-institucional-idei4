@@ -1,5 +1,13 @@
 @import "zen-grids";
 
+@mixin botao($width, $height, $background, $alinhamentoHorizontal, $alinhamentoVertical){
+	width: $width;
+	height: $height;
+	background: $background;
+	text-align: $alinhamentoHorizontal;
+	line-height: $alinhamentoVertical;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -82,10 +90,79 @@ header{
 	}
 
 	#desenvolvimento-de-sites{
-		@include zen-grid-item(10, 2);
+		@include zen-grid-item(12, 1);
 		clear: both;
 		margin-top: 100px;
+		margin-bottom: 50px;
+		font-family: 'Play', sans-serif;
+
+		.texto{
+			@include zen-grid-item(4, 3);
+
+			h1{
+				font-size: 31px;
+				margin-bottom: 20px;
+			}
+			p{
+				font-size: 12px;
+			}
+		}
+
+		.imagem{
+			@include zen-grid-item(3, 8);
+		}
+
+		.button{
+			@include botao(310px, 45px, #9ccc45, center, 45px);
+			
+			a{
+				color: #fff;
+				font-weight: bold;
+				font-size: 20px;
+				text-decoration: none;
+				display: block;
+			}
+		}
 	}
+
+	#identidade-visual{
+		@include zen-grid-item(12,1);
+		clear: both;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		font-family: 'Play', sans-serif;
+		background: #fafafa;
+
+		.texto{
+			@include zen-grid-item(4, 8);
+
+			h1{
+				font-size: 31px;
+				margin-bottom: 20px;
+			}
+			p{
+				font-size: 12px;
+			}
+		}
+
+		.imagem{
+			@include zen-grid-item(3, 4);
+		}
+
+		.button{
+			@include botao(310px, 45px, #9ccc45, center, 45px);
+
+			a{
+				color: #fff;
+				font-weight: bold;
+				font-size: 20px;
+				text-decoration: none;
+				display: block;
+			}
+		}
+	}
+
+
 
 	.clientes{
 		clear: both;
