@@ -177,6 +177,9 @@ header{
 			.hospedagem{
 				clear: both;
 			}
+			.cartao .titulo{
+				line-height: 50px;
+			}
 
 			ul{
 				list-style: none;
@@ -194,5 +197,23 @@ header{
 
 	.clientes{
 		clear: both;
+		@include zen-grid-item(12, 1);
+		font-family: 'Play', sans-serif;
+
+		h2{
+			text-align: center;
+			font-size: 36px;
+		}
+	}
+	#contatos{
+		clear: both;
+				@include zen-grid-item(12, 1);
+		font-family: 'Play', sans-serif;
+
+		h2{
+			text-align: center;
+			font-size: 36px;
+		}
+
 	}
 }
