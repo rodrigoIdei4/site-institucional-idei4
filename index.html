@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="app">
+<html ng-app="routerApp">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.js"></script>
@@ -31,7 +31,7 @@
 				<p class="button"><a href="#">Quem somos</a></p>
 			</section>
 			<section id="services">
-				<section id="desenvolvimento-de-sites">
+				<section ui-view id="desenvolvimento-de-sites">
 					<div class="texto">
 						<h1>Desenvolvimento de Sites</h1>
 						<p>Prepare-se para pegar muitos clientes na sua rede, porque na web só há lugar para quem sabe fazer de verdade.</p>
@@ -86,7 +86,7 @@
 					</li>
 				</ul>
 			</section>
-			<section id="contatos" ng-view>
+			<section id="contatos">
 			</section>
 		</section>
 
