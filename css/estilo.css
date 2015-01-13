@@ -216,7 +216,8 @@ header {
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    clear: both; }
+    clear: both;
+    font-family: 'Play', sans-serif; }
     #content #services .outros-servicos .cartao, #content #services .outros-servicos .hospedagem {
       float: left;
       width: 25%;
@@ -241,6 +242,14 @@ header {
       box-sizing: border-box; }
     #content #services .outros-servicos .hospedagem {
       clear: both; }
+    #content #services .outros-servicos ul {
+      list-style: none; }
+      #content #services .outros-servicos ul .titulo {
+        font-size: 18px;
+        display: block;
+        margin: 30px 0 10px;
+        font-weight: bold;
+        height: 50px; }
   #content .clientes {
     clear: both; }
 
