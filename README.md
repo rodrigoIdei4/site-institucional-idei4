@@ -46,10 +46,20 @@ Criei um JSON que irá alimentar os clientes e assim que surgir um cliente novo,
 Arquivo: js/clientes.json
 
 
-=> Contato/Orçamento
+=> AngularJs e Ui-Router
 
-Utilizei o AngularJS nessa área para que ao abrir o site ele abra com o fomrulário de contato e ao solicitar orçamento ele mude o formulário para o de orçamento, com isso não será necessário criar uma página só para orçamento ou então uma lightbox.
-A validação também será feita pelo AngularJS.
+Por ser uma single page application, pensei em algo em que não precisasse utilizar popups, lightboxes ou abrr outras páginas e para fazer com que as áreas aparecessem sem haver o reload da página, utilizei o ui-router do Angular. Com o ui-router conseguimos criar as rotas do site e utilizar o conceito de view na página.
+
+Podemos trabalhar com várias views em uma página só com o comando "ui-view".
+
+Para utilizar o ui-router nas aplicações:
+
+via npm: $ npm install angular-ui-router
+
+Incluir as chamadas no arquivo index.html (na ordem apresentada abaixo):
+- AngularJS: <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+- ui-Router: <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+
 
 => CSS e Grid
 
