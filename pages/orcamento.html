@@ -1,6 +1,6 @@
 <section class="orcamento">
+	<h2>Orçamento</h2>
 	<div class="info">
-		<h2>Orçamento</h2>
 		<p>Gostaria de saber valores? Peça um orçamento agora mesmo.</p>
 		<ul class="contatos">
 			<li class="email"><a href="mailto:contato@idei4.com.br">proposta@idei4.com.br</a></li>
@@ -9,9 +9,18 @@
 	</div>
 	<div class="formulario">
 		<form name="enviar-proposta" action="enviar-proposta.php">
-			<input type="text" name="nome" required />
-			<input type="email" name="email" required />
-			<textarea name="proposta" required></textarea>
+			<p>
+				<label>Nome</label>
+				<input type="text" name="nome" required />
+			</p>
+			<p>
+				<label>E-mail</label>
+				<input type="email" name="email" required />
+			</p>
+			<p>
+				<label>Pedido de orçamento</label>
+				<textarea name="proposta" required></textarea>
+			<p>
 			<input type="submit" value="Enviar" />
 		</form>
 	</div>

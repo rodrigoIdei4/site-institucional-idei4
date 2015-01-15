@@ -15,11 +15,4 @@ App.config(function($stateProvider){
                 "idVisual": {templateUrl: "pages/id-visual.html"}
             }
         })
-        .state('route2', {
-            url: "/route2",
-            views:{
-                "viewA": {template: "route2.viewA"},
-                "viewB": {template: "route2.viewB"}
-            }
-        })
 })
