@@ -15,4 +15,11 @@ App.config(function($stateProvider){
                 "idVisual": {templateUrl: "pages/id-visual.html"}
             }
         })
+        .state('orcamentoIdvisual', {
+            url: "/orcamentoIdvisual",
+            views:{
+                "devSite": {templateUrl: "pages/dev-sites.html"},
+                "idVisual": {templateUrl: "pages/orcamento.html"}
+            }
+        })
 })
