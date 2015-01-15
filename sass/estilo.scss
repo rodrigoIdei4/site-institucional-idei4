@@ -193,6 +193,23 @@ header{
 				}
 			}
 		}
+
+		.orcamento{
+			clear: both;
+			margin-top: 100px;
+			margin-bottom: 50px;
+			font-family: 'Play', sans-serif;
+
+			@include zen-grid-item(12, 1);
+
+			.info{
+				@include zen-grid-item(4, 3);
+			}
+			.formulario{
+				@include zen-grid-item(4, 8);	
+			}
+
+		}
 	}
 
 	.clientes{
@@ -205,11 +222,7 @@ header{
 			font-size: 36px;
 		}
 	}
-	.orcamento{
-		clear: both;
-		@include zen-grid-item(12, 1);
 
-	}
 	#contatos{
 		clear: both;
 		@include zen-grid-item(12, 1);
